@@ -1,0 +1,1 @@
+select a.sale_manager,count(a.client_id) as client_count from client_info a group by a.sale_manager order by client_count desc;
